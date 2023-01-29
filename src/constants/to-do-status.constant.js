@@ -1,0 +1,6 @@
+export const TO_DO_STATUS = {
+  TO_DO: "TO_DO",
+  COMPLETED: "COMPLETED",
+  IN_PROGRESS: "IN_PROGRESS",
+  REJECTED: "REJECTED",
+};
