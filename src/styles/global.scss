@@ -11,7 +11,7 @@ table {
   }
 
   th, td {
-    padding: 10px 5px
+    padding: 10px 7px
   }
 
   tbody {
@@ -19,19 +19,11 @@ table {
       background-color: #f3f3f3;
     }
 
-    tr:hover {
-      background-color: #e2e2e2;
-      transition: all 0.3s ease;
-    }
-
     tr.no-data {
       td {
+        padding: 60px;
         text-align: center;
       }
-    }
-
-    tr.no-data:hover {
-      background-color: #fff;
     }
   }
 }
