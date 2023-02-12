@@ -1,0 +1,29 @@
+table {
+  margin: 20px 0;
+  border-collapse: collapse;
+  width: 100%;
+
+  thead {
+    tr {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  th, td {
+    padding: 10px 7px
+  }
+
+  tbody {
+    tr:nth-child(even) {
+      background-color: #f3f3f3;
+    }
+
+    tr.no-data {
+      td {
+        padding: 60px;
+        text-align: center;
+      }
+    }
+  }
+}
